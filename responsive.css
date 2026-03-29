@@ -487,14 +487,14 @@ display:block;
 }
 
 /* IMAGE */
-.principles-video{
+.principles-image{
   width:100%;
   position:relative;
   left:auto;
   margin-top:2rem;
 }
 
-.principles-video video{
+.principles-image img{
   width:100%;
   height:auto;
 }
@@ -858,6 +858,26 @@ display:block;
 
   .chairman-section {
     padding: 3rem 6%;
+  }
+
+}
+
+/* ===================== */
+/* GALLERY MOBILE FIX */
+/* ===================== */
+
+@media (max-width:768px){
+
+  .gallery-slide {
+    padding: 1rem 0.5rem;
+  }
+
+  .gallery-img {
+    max-width: 220px;
+  }
+
+  .gallery-slide h4 {
+    font-size: 1rem;
   }
 
 }

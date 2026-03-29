@@ -125,10 +125,10 @@ if (form) {
       return;
     }
 
-    if (!/^[0-9]{10,15}$/.test(phone)) {
-      alert("Enter a valid phone number");
-      return;
-    }
+    if (!/^[\d+\s-]{10,18}$/.test(phone)) {
+  alert("Enter a valid phone number");
+  return;
+}
 
     if (message.length < 5) {
       alert("Message must be at least 5 characters");
