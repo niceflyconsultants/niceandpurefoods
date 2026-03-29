@@ -152,3 +152,45 @@ Message: ${message}`
     form.reset();
   });
 }
+
+// ===== GALLERY SLIDER =====
+setTimeout(() => {
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".gallery-slide");
+  const slider = document.getElementById("gallery-slider");
+  const dotsContainer = document.getElementById("dots");
+
+  if (!slider) return;
+
+  const totalSlides = slides.length;
+
+  // Create dots
+  for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement("div");
+    dot.className = "slider-dot";
+    dot.addEventListener("click", () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+  }
+
+  function updateDots() {
+    dotsContainer.childNodes.forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentSlide);
+    });
+  }
+
+  function goToSlide(index) {
+    currentSlide = index;
+    slider.style.transform = `translateX(-${index * 100}%)`;
+    updateDots();
+  }
+
+  function autoSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    goToSlide(currentSlide);
+  }
+
+  updateDots();
+  setInterval(autoSlide, 3000);
+
+}, 500);
