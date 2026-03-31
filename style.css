@@ -361,7 +361,7 @@ transform: rotate(360deg);
 
 .mint{
 position:absolute;
-width:4%;
+width:3%;
 animation:float 6s ease-in-out infinite;
 }
 
@@ -480,16 +480,6 @@ width:48%;
 }
 
 
-/* SCRIPT */
-
-.mission-script{
-
-font-family:'Pacifico',cursive;
-font-size:3.2vw;
-color:#f3c316;
-margin-bottom:1rem;
-
-}
 
 
 /* TITLE */
@@ -575,21 +565,6 @@ box-shadow:0 20px 40px rgba(0,0,0,0.15);
 }
 
 
-/* ===================== */
-/* DECORATION */
-/* ===================== */
-
-.mission-leaf{
-
-position:absolute;
-bottom:15%;
-left:40%;
-width:10%;
-
-animation:float 6s ease-in-out infinite;
-
-}
-
 
 
 /* ===================== */
@@ -668,17 +643,6 @@ width:40%;
 
 }
 
-
-/* SCRIPT */
-
-.team-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-margin-bottom:1rem;
-
-}
 
 
 /* TITLE */
@@ -769,21 +733,6 @@ line-height:1.6;
 }
 
 
-/* ===================== */
-/* DECORATION */
-/* ===================== */
-
-.team-leaf{
-
-position:absolute;
-bottom:30%;
-left:48%;
-width:6%;
-animation:float 6s ease-in-out infinite;
-
-}
-
-
 
 /* ===================== */
 /* WHY CHOOSE SECTION */
@@ -820,17 +769,6 @@ width:42%;
 
 }
 
-
-/* SCRIPT */
-
-.choose-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-margin-bottom:1rem;
-
-}
 
 
 /* TITLE */
@@ -875,7 +813,7 @@ margin-bottom:1rem;
 
 .choose-images{
 
-width:50%;
+width:100%;
 display:flex;
 align-items:flex-end;
 gap:4%;
@@ -908,38 +846,7 @@ display:block;
 
 .choose-img.big{
 
-width:60%;
-
-}
-
-.choose-img.small{
-
-width:35%;
-
-}
-
-
-/* HOVER */
-
-.choose-img:hover{
-
-transform:translateY(-1rem) scale(1.03);
-box-shadow:0 20px 40px rgba(0,0,0,0.15);
-
-}
-
-
-/* ===================== */
-/* DECORATION */
-/* ===================== */
-
-.choose-leaf{
-
-position:absolute;
-bottom:20%;
-left:48%;
-width:6%;
-animation:float 6s ease-in-out infinite;
+width:100%;
 
 }
 
@@ -979,17 +886,6 @@ width:40%;
 
 }
 
-
-/* SCRIPT */
-
-.vision-script{
-
-font-family:'Pacifico',cursive;
-font-size:2vw;
-color:#f3c316;
-margin-bottom:1rem;
-
-}
 
 
 /* TITLE */
@@ -1089,18 +985,6 @@ line-height:1.6;
 
 }
 
-
-/* DECORATION */
-
-.vision-leaf{
-
-position:absolute;
-bottom:15%;
-right:25%;
-width:6%;
-animation:float 6s ease-in-out infinite;
-
-}
 /* ===================== */
 /* CORE PRINCIPLES */
 /* ===================== */
@@ -1139,22 +1023,14 @@ flex:0 0 auto;
 /* TITLE */
 
 .principles-title-area{
-width:45%;
+width:50%;
 }
 
-.principles-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-margin-bottom:0.5rem;
-
-}
 
 .principles-title{
 
 font-size:4vw;
-font-weight:800;
+font-weight:700;
 line-height:1.1;
 
 }
@@ -1262,19 +1138,6 @@ line-height:1.4;
 }
 
 
-/* ===================== */
-/* DECORATION */
-/* ===================== */
-
-.principles-leaf{
-
-position:absolute;
-right:6%;
-bottom:8%;
-width:5%;
-animation:float 6s ease-in-out infinite;
-
-}
 
 /* ===================== */
 /* HEALTHY FOOD FOR ALL */
@@ -1297,14 +1160,6 @@ position:relative;
 
 }
 
-.food-all-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-margin-bottom:0.5rem;
-
-}
 
 .food-all-title{
 
@@ -1388,13 +1243,6 @@ width:40%;
 
 }
 
-.nutrition-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-
-}
 
 .nutrition-title{
 
@@ -1483,13 +1331,6 @@ align-items:center;
 width:50%;
 }
 
-.workplace-script{
-
-font-family:'Pacifico',cursive;
-font-size:3vw;
-color:#f3c316;
-
-}
 
 .workplace-title{
 
